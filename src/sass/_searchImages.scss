@@ -1,0 +1,114 @@
+.search-wrap {
+    background-color: #4760ce;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  /* Style the search field */
+  .search-input {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    outline: none;
+    float: left;
+    width: 320px;
+    background: #ffffff;
+  }
+  
+  /* Style the submit button */
+  .search-button {
+    float: left;
+    width: 45px;
+    padding: 10px;
+    background-color: #e5e6e7;
+    color: #000000;
+    font-size: 17px;
+    border: none;
+    border-left: none; /* Prevent double borders */
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover,
+  .search-button:focus {
+    background-color: #cccdcf;
+    outline: none;
+  }
+  
+  /* Clear floats */
+  .search-form::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .photo-card {
+    margin-right: 15px;
+  }
+  
+  .photo {
+    display: block;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dad7d7;
+    border-left: 1px solid #dad7d7;
+    border-right: 1px solid #dad7d7;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.15);
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 8px;
+  }
+  
+  .info-item-api {
+    padding-top: 6px;
+  }
+  
+  .load-more {
+    display: block;
+    margin: 10px auto 30px;
+    padding: 5px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #4760ce;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .load-more:hover,
+  .load-more:focus {
+    background-color: #4056b8;
+    outline: none;
+  }
